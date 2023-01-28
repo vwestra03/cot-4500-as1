@@ -30,13 +30,13 @@ print("Question 1: " + "%.5f" % variable + "\n")
 
 # Question 2
 norm1 = variable * (10 ** -3)
-print("Question 2: " +  str((math.floor(norm1 * 1000)) / 1000) + "\n")
+print("Question 2: " +  str((math.floor(norm1 * 1000))) + "\n")
 
 
 # Question 3
 norm = variable * (10 ** -3)
 norm = round(norm, 3)
-print("Question 3: " + str(norm) + "\n")
+print("Question 3: " + str(norm * 1000) + "\n")
 
 # Question 4
 norm1 = norm * (10 ** 3)
